@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #9D4EDD; 
+  --secondary-color: #6B2FFF; 
+  --light-color: #ffffff;
+  --text-color: #050505;
+  --gradient-bg: linear-gradient(#8c1aff, #6f00ff);
+  --button-color: linear-gradient(#8c1aff, #6f00ff);
+}
+
+body {
+  @apply bg-white text-gray-900;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bitter', serif;
+}
+
+.gradient-text {
+  background: var(--gradient-bg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-button {
+  background: var(--button-color);
+  transition: all 0.3s ease;
+}
+
+.gradient-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(157, 78, 221, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
