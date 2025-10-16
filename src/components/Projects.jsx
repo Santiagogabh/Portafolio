@@ -70,7 +70,6 @@ const Projects = () => {
             <span className="gradient-text">Proyectos Destacados</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Soluciones innovadoras que han transformado negocios y generado resultados excepcionales
           </p>
         </motion.div>
 

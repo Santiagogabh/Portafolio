@@ -21,7 +21,7 @@ function App() {
     <>
       <Helmet>
         <title>Portafolio Profesional | Programación & Marketing</title>
-        <meta name="description" content="Portafolio profesional de programación y marketing. Descubre mis proyectos, servicios y cómo podemos trabajar juntos." />
+        <meta name="description" content="Santiago Hernandez" />
       </Helmet>
       
       <motion.div 

@@ -4,9 +4,9 @@ import { Award, Users, Zap, Target } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: Award, value: '50+', label: 'Proyectos Completados' },
-    { icon: Users, value: '30+', label: 'Clientes Satisfechos' },
-    { icon: Zap, value: '5+', label: 'Años de Experiencia' },
+    { icon: Award, value: '5', label: 'Proyectos Completados' },
+    { icon: Users, value: '2', label: 'Años de Experiencia' },
+    { icon: Zap, value: '', label: 'Años de Experiencia' },
     { icon: Target, value: '95%', label: 'Tasa de Éxito' },
   ];
 
@@ -31,7 +31,7 @@ const About = () => {
             <span className="gradient-text">Sobre Mí</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Profesional apasionado por crear soluciones digitales que combinan tecnología de vanguardia con estrategias de marketing efectivas
+            Me gusta la tecnologia y crear proyectos nuevos e innovadores.
           </p>
         </motion.div>
 
