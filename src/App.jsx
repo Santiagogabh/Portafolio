@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Portafolio Profesional | Programación & Marketing</title>
+        <title>Santiago <Hernandez></Hernandez></title>
         <meta name="description" content="Santiago Hernandez" />
       </Helmet>
       

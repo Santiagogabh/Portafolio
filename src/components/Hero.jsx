@@ -75,8 +75,10 @@ const Hero = () => {
               onClick={handleCTA}
               variant="outline"
               className="border-2 border-purple-500 text-purple-700 hover:bg-purple-50 px-8 py-6 rounded-full text-lg font-semibold"
+              href="#contact"
+            
             >
-              Agendar Consultoría
+              Trabaja Conmigo
             </Button>
           </motion.div>
 

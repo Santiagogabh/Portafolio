@@ -23,10 +23,7 @@ const Navigation = () => {
   ];
 
   const handleWorkWithMe = () => {
-    toast({
-      title: "¡Hablemos! 🚀",
-      description: "🚧 Esta función aún no está implementada, ¡pero puedes pedirme que la configure para que te lleve a tu sección de contacto preferida!",
-    });
+    href="https://wa.link/sqwe9u";
     setIsMobileMenuOpen(false);
   };
 
@@ -44,7 +41,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold gradient-text cursor-pointer"
           >
-            Portfolio
+            Santiago Hernandez
           </motion.div>
 
           <div className="hidden md:flex items-center space-x-8">

@@ -64,10 +64,10 @@ const About = () => {
             <div className="bg-white rounded-2xl p-8 shadow-xl">
               <h3 className="text-2xl font-bold mb-6 text-gray-800">Mi Experiencia</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Con más de 5 años de experiencia en desarrollo web y marketing digital, he ayudado a decenas de empresas a alcanzar sus objetivos digitales. Mi enfoque combina código limpio, diseño intuitivo y estrategias de marketing basadas en datos.
+                Llevo 2 años completamente dedicado a la programacion y el marketing digital. Estoy muy inmerso en el mundo de la Inteligencia Artificial, las automatizaciones y el desarrollo de software.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Especializado en crear experiencias digitales que no solo se ven bien, sino que también convierten visitantes en clientes y generan resultados medibles para tu negocio.
+                Por ello, me enfoco en crear sistemas que mejoren el posicionamiento o generen ventas para mis clientes.Implemento una estrategia de publicidad exclusivamente en Meta Ads y combino automatizaciones para aumentar la rentabilidad.
               </p>
             </div>
           </motion.div>
