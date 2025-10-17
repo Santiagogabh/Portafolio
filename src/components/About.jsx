@@ -6,10 +6,9 @@ const About = () => {
 
 
   const skills = [
-    { name: 'Desarrollo Web', level: 95 },
-    { name: 'Marketing Digital', level: 90 },
-    { name: 'SEO & Analytics', level: 88 },
-    { name: 'UI/UX Design', level: 85 },
+    { name: '5 aplicaciones desarrolladas', level: 37 },
+    { name: 'Mas de 4 millones generados', level: 38 },
+    { name: 'Certificado por Google en 7 ocasiones', level: 45 },
   ];
 
   return (
@@ -30,7 +29,6 @@ const About = () => {
           </p>
         </motion.div>
 
-        
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div
