@@ -41,7 +41,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold gradient-text cursor-pointer"
           >
-            Santiago Hernandez
+          
           </motion.div>
 
           <div className="hidden md:flex items-center space-x-8">

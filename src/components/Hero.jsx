@@ -6,10 +6,7 @@ import { toast } from '@/components/ui/use-toast';
 
 const Hero = () => {
   const handleCTA = () => {
-    toast({
-      title: "¡Excelente elección! 🎯",
-      description: "🚧 Esta función aún no está implementada—¡pero no te preocupes! Puedes solicitarla en tu próximo mensaje! 🚀",
-    });
+  window.open("https://wa.link/sqwe9u", "_blank");
   };
 
   return (
@@ -55,7 +52,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Transformo ideas en soluciones digitales innovadoras que impulsan tu negocio al siguiente nivel
+              Soluciono problemas con tecnologias innovadoras.
             </p>
           </motion.div>
 
@@ -75,7 +72,7 @@ const Hero = () => {
               onClick={handleCTA}
               variant="outline"
               className="border-2 border-purple-500 text-purple-700 hover:bg-purple-50 px-8 py-6 rounded-full text-lg font-semibold"
-              href="#contact"
+              href=" https://wa.link/sqwe9u"
             
             >
               Trabaja Conmigo
