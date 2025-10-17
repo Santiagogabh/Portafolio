@@ -79,21 +79,7 @@ const Hero = () => {
             </Button>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1, duration: 1 }}
-            className="mt-16"
-          >
-            <a href="#proyectos" className="inline-block">
-              <motion.div
-                animate={{ y: [0, 10, 0] }}
-                transition={{ repeat: Infinity, duration: 2 }}
-              >
-                <ArrowDown className="text-purple-600" size={32} />
-              </motion.div>
-            </a>
-          </motion.div>
+
         </div>
       </div>
     </section>
