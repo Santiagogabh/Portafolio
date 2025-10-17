@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { ArrowDown, Code, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { toast } from '@/components/ui/use-toast';
+import iconCode from '@/assets/icons/github_logo.png';
+import iconMarketing from '@/assets/icons/meta_logo.png';
 
 const Hero = () => {
   const handleCTA = () => {
