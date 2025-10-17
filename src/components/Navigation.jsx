@@ -39,9 +39,9 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-20">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="text-2xl font-bold gradient-text cursor-pointer"
+            className="text-2xl font-italic gradient-text cursor-pointer"
           >
-          
+          Optimiza tu Empresa
           </motion.div>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -60,6 +60,7 @@ const Navigation = () => {
             <Button
               onClick={handleWorkWithMe}
               className="gradient-button text-white px-6 py-2 rounded-full font-semibold"
+              href="https://wa.link/sqwe9u"
             >
               Trabaja Conmigo
             </Button>
