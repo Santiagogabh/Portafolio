@@ -3,12 +3,7 @@ import { motion } from 'framer-motion';
 import { Award, Users, Zap, Target } from 'lucide-react';
 
 const About = () => {
-  const stats = [
-    { icon: Award, value: '5', label: 'Proyectos Completados' },
-    { icon: Users, value: '2', label: 'Años de Experiencia' },
-    { icon: Zap, value: '', label: 'Años de Experiencia' },
-    { icon: Target, value: '95%', label: 'Tasa de Éxito' },
-  ];
+
 
   const skills = [
     { name: 'Desarrollo Web', level: 95 },

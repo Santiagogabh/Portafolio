@@ -26,9 +26,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 gradient-text">Portfolio</h3>
+            <h3 className="text-2xl font-bold mb-4 gradient-text">Santiago Hernandez</h3>
             <p className="text-gray-300">
-              Transformando ideas en soluciones digitales innovadoras
+              Creo solciones interesantes para los problemas que tienes
             </p>
           </div>
 
@@ -67,7 +67,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 pt-8 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Portafolio Profesional. Todos los derechos reservados.
+            © {new Date().getFullYear()} Portafolio Profesional de Servicios. Todos los derechos reservados. 
           </p>
         </div>
       </div>

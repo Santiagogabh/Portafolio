@@ -8,7 +8,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: '¿Qué servicios ofreces?',
-      answer: 'Ofrezco desarrollo web completo, diseño UI/UX, marketing digital, SEO, gestión de redes sociales y consultorías personalizadas para impulsar tu presencia digital.',
+      answer: 'Ofrezco desarrollo web completo, diseño UI/UX y marketing digital enfocado unicamente en Instagram y Facebook.',
     },
     {
       question: '¿Cuánto tiempo toma completar un proyecto?',
@@ -16,19 +16,19 @@ const FAQ = () => {
     },
     {
       question: '¿Trabajas con clientes internacionales?',
-      answer: 'Sí, trabajo con clientes de todo el mundo. Utilizo herramientas de comunicación modernas para garantizar una colaboración fluida sin importar la ubicación.',
+      answer: 'Sí, trabajo con clientes de todo el mundo. Utilizo herramientas para entregar el servicio de la mejor calidad posible',
     },
     {
       question: '¿Ofreces soporte post-lanzamiento?',
-      answer: 'Absolutamente. Todos mis proyectos incluyen un período de soporte post-lanzamiento, y ofrezco planes de mantenimiento continuo para asegurar que tu sitio funcione perfectamente.',
+      answer: 'Absolutamente. Todos mis proyectos incluyen un período de soporte post-lanzamiento, que esta detallado en el acuerdo cuando lanzamos el proyecto.',
     },
     {
       question: '¿Cuál es tu proceso de trabajo?',
-      answer: 'Mi proceso incluye: 1) Consulta inicial y análisis de necesidades, 2) Propuesta y planificación, 3) Diseño y desarrollo, 4) Revisiones y ajustes, 5) Lanzamiento y soporte.',
+      answer: 'Mi proceso es el siguiente: 1) Consulta inicial y analisis de problemas 2) Propuesta y planificación, 3) Diseño y desarrollo, 4) Revisiones y ajustes, 5) Lanzamiento y soporte.',
     },
     {
-      question: '¿Qué hace que tus servicios sean diferentes?',
-      answer: 'Combino habilidades técnicas de programación con conocimientos profundos de marketing digital, lo que me permite crear soluciones que no solo funcionan bien técnicamente, sino que también generan resultados comerciales reales.',
+      question: '¿Cuanto cobras por el servicio?',
+      answer: 'Los modelos de trabajo son personalizados y el precio depende de la complejidad y el cliente.',
     },
   ];
 
@@ -46,7 +46,7 @@ const FAQ = () => {
             <span className="gradient-text">Preguntas Frecuentes</span>
           </h2>
           <p className="text-xl text-gray-600">
-            Respuestas a las preguntas más comunes sobre mis servicios
+            Respuestas a tus preguntas
           </p>
         </motion.div>
 
