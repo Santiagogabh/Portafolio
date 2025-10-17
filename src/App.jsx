@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Santiago <Hernandez></Hernandez></title>
+        <title>Santiago Hernandez</title>
         <meta name="description" content="Santiago Hernandez" />
       </Helmet>
       
