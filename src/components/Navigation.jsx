@@ -35,14 +35,14 @@ const Navigation = () => {
         isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> 
         <div className="flex justify-between items-center h-20">
           <motion.div
-            whileHover={{ scale: 1.05 }}
-            className="text-2xl font-italic gradient-text cursor-pointer"
+            className="text-2xl font-bold font-bitter gradient-purple cursor-pointer"
           >
-          Optimiza tu Empresa
+            Optimiza tu Empresa
           </motion.div>
+
 
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link, index) => (
