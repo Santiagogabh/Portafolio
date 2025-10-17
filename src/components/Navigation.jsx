@@ -38,7 +38,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> 
         <div className="flex justify-between items-center h-20">
           <motion.div
-            className="text-2xl font-bold font-bitter gradient-purple cursor-pointer"
+            className="text-2xl font-bitter font-semibold gradient-purple cursor-pointer"
           >
             Optimiza tu Empresa
           </motion.div>
