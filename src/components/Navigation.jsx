@@ -58,9 +58,11 @@ const Navigation = () => {
               </motion.a>
             ))}
             <Button
-              onClick={handleWorkWithMe}
-              className="gradient-button text-white px-6 py-2 rounded-full font-semibold"
+              as="a" // esto hace que el botón se comporte como un enlace
               href="https://wa.link/sqwe9u"
+              target="_blank" // abre en nueva pestaña
+              rel="noopener noreferrer" // buena práctica de seguridad
+              className="gradient-button text-white px-6 py-2 rounded-full font-semibold"
             >
               Trabaja Conmigo
             </Button>
