@@ -10,49 +10,55 @@ import innolvidablezImage from '../assets/icons/innolvidablez_image.png';
 import metaLogo from '../assets/icons/meta_logo.png';
 import githubLogo from '../assets/icons/github_logo.png';   
 
+import React from 'react';
+import { motion } from 'framer-motion';
+import { ExternalLink } from 'lucide-react';
+
+// Importar las imágenes
+import sethImage from '../assets/icons/seth_image.png';
+import ecoMisionesImage from '../assets/icons/eco_misiones.png';
+import ecoClayImage from '../assets/icons/eco_clay_image.png';
+import plataBrutaImage from '../assets/icons/plata_bruta.png';
+import recoveryAbogadosImage from '../assets/icons/recovery_abogados_image.png';
+import innolvidablezImage from '../assets/icons/innolvidablez_image.png';
+
 const Projects = () => {
   const projects = [
     {
       title: 'Seth',
       description: 'Asistente de inteligencia artificial que permite chatear y crear imagenes.',
       image: sethImage,
-      logo: '/assets/icons/meta_logo.png',
-      link: 'https://ejemplo.com/seth', // Edita aquí el link del proyecto
+      link: 'https://ejemplo.com/seth',
     },
     {
       title: 'Eco Misiones',
       description: 'Juego interactivo para aprender sobre el cuidado del medio ambiente, incluye retos, misiones y tareas',
       image: ecoMisionesImage,
-      logo: '/assets/icons/eco_clay_image.png',
-      link: 'https://ejemplo.com/eco-misiones', // Edita aquí el link del proyecto
+      link: 'https://ejemplo.com/eco-misiones',
     },
     {
       title: 'Eco Clay',
       description: 'Aplicacion Ecologica para organizar eventos de limpieza en las ciudades',
       image: ecoClayImage,
-      logo: '/assets/icons/eco_clay_image.png',
-      link: 'https://ejemplo.com/eco-clay', // Edita aquí el link del proyecto
+      link: 'https://ejemplo.com/eco-clay',
     },
     {
       title: 'Plata Bruta',
       description: 'Permite gestionar tus finanzas para observar la comparacion visual entre ingresos y gastos',
       image: plataBrutaImage,
-      logo: '/assets/icons/plata_bruta.png',
-      link: 'https://ejemplo.com/plata-bruta', // Edita aquí el link del proyecto
+      link: 'https://ejemplo.com/plata-bruta',
     },
     {
       title: 'Recovery CK Abogados',
       description: 'Pagina web enfocada para una firma de abogados especializada en recuperacion de activos',
       image: recoveryAbogadosImage,
-      logo: '/assets/icons/github_logo.png',
-      link: 'https://ejemplo.com/recovery-abogados', // Edita aquí el link del proyecto
+      link: 'https://ejemplo.com/recovery-abogados',
     },
     {
       title: 'Innolvidablez',
       description: 'Pagina web para una perfumeria. Maneja un enfoque minimalista y elegante, dando una sensacion de lujo.',
       image: innolvidablezImage,
-      logo: '/assets/icons/innolvidablez_image.png',
-      link: 'https://ejemplo.com/innolvidablez', // Edita aquí el link del proyecto
+      link: 'https://ejemplo.com/innolvidablez',
     },
   ];
 
@@ -97,13 +103,6 @@ const Projects = () => {
                       alt={`${project.title} preview`}
                       src={project.image}
                     />
-                    <div className="absolute top-3 right-3 md:top-4 md:right-4 bg-white p-2 md:p-3 rounded-full shadow-lg">
-                      <img 
-                        className="w-6 h-6 md:w-8 md:h-8 object-contain"
-                        alt={`${project.title} logo`}
-                        src={project.logo}
-                      />
-                    </div>
                   </div>
                   
                   <div className="p-5 md:p-6">
