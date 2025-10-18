@@ -22,8 +22,8 @@ const Navigation = () => {
     { name: 'Preguntas Frecuentes', href: '#faq' },
   ];
 
-  const handleWorkWithMe = () => {
-    href="https://wa.link/sqwe9u";
+ const handleWorkWithMe = () => {
+    window.open('https://wa.link/sqwe9u', '_blank');
     setIsMobileMenuOpen(false);
   };
 
