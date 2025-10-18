@@ -10,17 +10,6 @@ import innolvidablezImage from '../assets/icons/innolvidablez_image.png';
 import metaLogo from '../assets/icons/meta_logo.png';
 import githubLogo from '../assets/icons/github_logo.png';   
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { ExternalLink } from 'lucide-react';
-
-// Importar las imágenes
-import sethImage from '../assets/icons/seth_image.png';
-import ecoMisionesImage from '../assets/icons/eco_misiones.png';
-import ecoClayImage from '../assets/icons/eco_clay_image.png';
-import plataBrutaImage from '../assets/icons/plata_bruta.png';
-import recoveryAbogadosImage from '../assets/icons/recovery_abogados_image.png';
-import innolvidablezImage from '../assets/icons/innolvidablez_image.png';
 
 const Projects = () => {
   const projects = [
