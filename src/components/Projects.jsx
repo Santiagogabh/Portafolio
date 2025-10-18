@@ -17,37 +17,37 @@ const Projects = () => {
       title: 'Seth',
       description: 'Asistente de inteligencia artificial que permite chatear y crear imagenes.',
       image: sethImage,
-      link: 'https://ejemplo.com/seth',
+      link: 'https://github.com/Santiagogabh/Seth',
     },
     {
       title: 'Eco Misiones',
       description: 'Juego interactivo para aprender sobre el cuidado del medio ambiente, incluye retos, misiones y tareas',
       image: ecoMisionesImage,
-      link: 'https://ejemplo.com/eco-misiones',
+      link: 'https://github.com/Santiagogabh/Eco-Misiones',
     },
     {
       title: 'Eco Clay',
       description: 'Aplicacion Ecologica para organizar eventos de limpieza en las ciudades',
       image: ecoClayImage,
-      link: 'https://ejemplo.com/eco-clay',
+      link: 'https://eco-clay.vercel.app/map',
     },
     {
       title: 'Plata Bruta',
       description: 'Permite gestionar tus finanzas para observar la comparacion visual entre ingresos y gastos',
       image: plataBrutaImage,
-      link: 'https://ejemplo.com/plata-bruta',
+      link: 'https://github.com/Santiagogabh/Plata-Bruta',
     },
     {
       title: 'Recovery CK Abogados',
       description: 'Pagina web enfocada para una firma de abogados especializada en recuperacion de activos',
       image: recoveryAbogadosImage,
-      link: 'https://ejemplo.com/recovery-abogados',
+      link: 'https://github.com/Santiagogabh/Recovery-CK-Abogados',
     },
     {
       title: 'Innolvidablez',
       description: 'Pagina web para una perfumeria. Maneja un enfoque minimalista y elegante, dando una sensacion de lujo.',
       image: innolvidablezImage,
-      link: 'https://ejemplo.com/innolvidablez',
+      link: 'https://github.com/Santiagogabh/Innolvidablezz',
     },
   ];
 
