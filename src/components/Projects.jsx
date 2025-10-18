@@ -1,8 +1,6 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
-import { toast } from '@/components/ui/use-toast';
 
 const Projects = () => {
   const projects = [
@@ -82,43 +80,37 @@ const Projects = () => {
                 href={project.link} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block cursor-pointer"
+                className="block"
               >
-              <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-purple-300">
-                <div className="relative h-48 md:h-56 lg:h-48 overflow-hidden bg-gradient-to-br from-purple-100 to-purple-200">
-                  <img 
-                    className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
-                    alt={`${project.title} preview`}
-                    src={project.image}
-                    onError={(e) => {
-                      e.target.src = 'https://images.unsplash.com/photo-1572177812156-58036aae439c';
-                    }}
-                  />
-                  <div className="absolute top-3 right-3 md:top-4 md:right-4 bg-white p-2 md:p-3 rounded-full shadow-lg">
+                <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-purple-300">
+                  <div className="relative h-48 md:h-56 lg:h-48 overflow-hidden bg-gradient-to-br from-purple-100 to-purple-200">
                     <img 
-                      className="w-6 h-6 md:w-8 md:h-8 object-contain"
-                      alt={`${project.title} logo`}
-                      src={project.logo}
-                      onError={(e) => {
-                        e.target.src = 'https://images.unsplash.com/photo-1572177812156-58036aae439c';
-                      }}
+                      className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
+                      alt={`${project.title} preview`}
+                      src={project.image}
                     />
+                    <div className="absolute top-3 right-3 md:top-4 md:right-4 bg-white p-2 md:p-3 rounded-full shadow-lg">
+                      <img 
+                        className="w-6 h-6 md:w-8 md:h-8 object-contain"
+                        alt={`${project.title} logo`}
+                        src={project.logo}
+                      />
+                    </div>
+                  </div>
+                  
+                  <div className="p-5 md:p-6">
+                    <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3 text-gray-800 group-hover:text-purple-600 transition-colors">
+                      {project.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4 line-clamp-3">
+                      {project.description}
+                    </p>
+                    <div className="flex items-center text-purple-600 font-semibold group-hover:text-purple-700 text-sm md:text-base">
+                      <span className="mr-2">Ver Proyecto</span>
+                      <ExternalLink size={16} className="md:w-[18px] md:h-[18px] group-hover:translate-x-1 transition-transform" />
+                    </div>
                   </div>
                 </div>
-                
-                <div className="p-5 md:p-6">
-                  <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3 text-gray-800 group-hover:text-purple-600 transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4 line-clamp-3">
-                    {project.description}
-                  </p>
-                  <div className="flex items-center text-purple-600 font-semibold group-hover:text-purple-700 text-sm md:text-base">
-                    <span className="mr-2">Ver Proyecto</span>
-                    <ExternalLink size={16} className="md:w-[18px] md:h-[18px] group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
-              </div>
               </a>
             </motion.div>
           ))}
