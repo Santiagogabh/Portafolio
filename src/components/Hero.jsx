@@ -47,7 +47,7 @@ const Hero = () => {
               </motion.div>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 font-bitter">
               <span className="gradient-text">Programación</span>
               <span className="text-gray-800"> & </span>
               <span className="gradient-text">Marketing</span>
@@ -65,7 +65,12 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <Button
-              onClick={handleCTA}
+              onClick={() => {
+                const section = document.getElementById("proyectos");
+                if (section) {
+                  section.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
               className="gradient-button text-white px-8 py-6 rounded-full text-lg font-semibold shadow-2xl"
             >
               Ver Mis Proyectos
