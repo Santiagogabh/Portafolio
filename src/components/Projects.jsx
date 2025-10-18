@@ -7,42 +7,42 @@ const Projects = () => {
     {
       title: 'Seth',
       description: 'Asistente de inteligencia artificial que permite chatear y crear imagenes.',
-      image: '/assets/icons/seth_image.png',
+      image: 'src/assets/icons/seth_image.png',
       logo: '/assets/icons/meta_logo.png',
       link: 'https://ejemplo.com/seth', // Edita aquí el link del proyecto
     },
     {
       title: 'Eco Misiones',
       description: 'Juego interactivo para aprender y tomar accion para cuidar el medio ambiente, incluye retos, misiones y tareas',
-      image: '/assets/icons/eco_misiones.png',
+      image: 'src/assets/icons/eco_misiones.png',
       logo: '/assets/icons/eco_clay_image.png',
       link: 'https://ejemplo.com/eco-misiones', // Edita aquí el link del proyecto
     },
     {
       title: 'Eco Clay',
       description: 'Aplicacion Ecologica para organizar eventos de limpieza en las ciudades',
-      image: '/assets/icons/eco_clay_image.png',
+      image: 'src/assets/icons/eco_clay_image.png',
       logo: '/assets/icons/eco_clay_image.png',
       link: 'https://ejemplo.com/eco-clay', // Edita aquí el link del proyecto
     },
     {
       title: 'Plata Bruta',
       description: 'Permite gestionar tus finanzas para observar la comparacion visual entre ingresos y gastos',
-      image: '/assets/icons/plata_bruta.png',
+      image: 'src/assets/icons/plata_bruta.png',
       logo: '/assets/icons/plata_bruta.png',
       link: 'https://ejemplo.com/plata-bruta', // Edita aquí el link del proyecto
     },
     {
       title: 'Recovery CK Abogados',
       description: 'Pagina web enfocada en conversiones para una firma de abogados especializada en recuperacion de activos',
-      image: '/assets/icons/recovery_abogados_image.png',
+      image: 'src/assets/icons/recovery_abogados_image.png',
       logo: '/assets/icons/github_logo.png',
       link: 'https://ejemplo.com/recovery-abogados', // Edita aquí el link del proyecto
     },
     {
       title: 'Innolvidablez',
       description: 'Pagina web enfocada en ventas para una perfumeria',
-      image: '/assets/icons/innolvidablez_image.png',
+      image: 'src/assets/icons/innolvidablez_image.png',
       logo: '/assets/icons/innolvidablez_image.png',
       link: 'https://ejemplo.com/innolvidablez', // Edita aquí el link del proyecto
     },
