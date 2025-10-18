@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { toast } from '@/components/ui/use-toast';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,7 +21,7 @@ const Navigation = () => {
     { name: 'Preguntas Frecuentes', href: '#faq' },
   ];
 
- const handleWorkWithMe = () => {
+  const handleWorkWithMe = () => {
     window.open('https://wa.link/sqwe9u', '_blank');
     setIsMobileMenuOpen(false);
   };
@@ -35,15 +34,14 @@ const Navigation = () => {
         isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> 
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <motion.div
             className="text-2xl font-bitter font-semibold gradient-purple cursor-pointer"
           >
             Optimiza tu Empresa
           </motion.div>
-
-
+          
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link, index) => (
               <motion.a
@@ -58,10 +56,7 @@ const Navigation = () => {
               </motion.a>
             ))}
             <Button
-              as="a" // esto hace que el botón se comporte como un enlace
-              href="https://wa.link/sqwe9u"
-              target="_blank" // abre en nueva pestaña
-              rel="noopener noreferrer" // buena práctica de seguridad
+              onClick={handleWorkWithMe}
               className="gradient-button text-white px-6 py-2 rounded-full font-semibold"
             >
               Trabaja Conmigo
